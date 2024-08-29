@@ -2,9 +2,10 @@
 
 ## Druhy testů
 
-- UI / E2E
-- API
-- Component
+- Manual
+- E2E (UI)
+- API (Contract)
+- Component (Integration)
 - Unit
 
 ## Porovnání E2E knihoven
@@ -97,13 +98,15 @@
 ## Další odkazy
 - [On Migrating from Cypress to Playwright](https://mtlynch.io/notes/cypress-vs-playwright)
 - [Porovnání knihoven a kódu](https://ray.run/blog/comparing-automated-testing-tools-cypress-selenium-playwright-and-puppeteer)
+- https://old.reddit.com/r/QualityAssurance/comments/srhafv/cypress_vs_playwright/hwsa7pu/
 - https://ray.run/blog/the-rapid-adoption-of-playwright-test-in-software-qa
 - https://ossinsight.io/collections/testing-tools/trends/
+- Dokumentace
 
 ## Názvosloví
 - Flake, Flaky test - testy, které někdy projdou a někdy ne, bez změny kódu, nepředvídatelné, nespolehlivé (cypress x playwright)
 - Regrese - bug, který byl už jednou opraven se znovu objevil
-- Regression testing - testy, že se nic nerozbilo
+- Regression testing - testy, že se nerozbilo to co už jednou fungovalo
 - Story - popis jak má část softwaru fungovat ("As a customer, I want to be able to reset my password so that I can regain access to my account if I forget it.")
 - Sanity / smoke / confidence / acceptance testy
   - (předtest)
